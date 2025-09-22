@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
-  res.send("¡Hola Mundo desde GCP con CI/CD!");
+  res.send("¡Hola Mundo desde GCP y desde UNG =)");
 });
 
 
