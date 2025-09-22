@@ -1,0 +1,12 @@
+git add .
+git commit -m "Cambio en vivo para la clase"
+git push
+
+
+
+
+git add . → prepara los archivos que cambié.
+
+git commit -m → crea un punto de control con un mensaje.
+
+git push → envía el cambio a GitHub, que dispara el pipeline.
