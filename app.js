@@ -1,9 +1,10 @@
-const express = require(express);
+const express = require("express");
 const app = express();
-const PORT = process.env.PORT  8080;
+const PORT = process.env.PORT || 8080;
 
-app.get(, (req, res) = {
-  res.send(¡Hola Mundo desde GCP con CICD!  - Prueba de cambios de permisos);
+app.get("/", (req, res) => {
+  res.send("¡Hola Mundo desde GCP con CI/CD!");
 });
 
-app.listen(PORT, () = console.log(`Servidor corriendo en puerto ${PORT}`));
+
+app.listen(PORT, "0.0.0.0", () => console.log(`Servidor corriendo en puerto ${PORT}`));
